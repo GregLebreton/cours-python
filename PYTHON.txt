@@ -1,0 +1,110 @@
+-GLB------------------------------------ PYTHON ---------------------------------------------2019-
+
+
+
+informatique = automatisation du traitement des données (tout est donnée)
+-------------  l'ordinateur reste l'outil le plus éfficace pour le traitement de ces données.
+
+Le language de programmation est une convention permettant de communiquer avec une machine.
+
+
+* L ALGORYTHMIE: C'est une liste d'instructions misent à la suite. Cette notion est antérieur à l'informatique (Al Kwarizmi, mathématicien arabe 700-800 ap JC)
+
+
+* PYTHON: c'est un langage interprété (tel que le shell), facile à prendre en main, orienté objet et faiblement typé.
+
+							-----------------------------------
+
+* LES VARIABLES *
+
+le cycle de vie de la variable: CRUD (Create Read Update Delete)
+
+note: python concatène les chaines de caractères x="salut" ; x=x+" greg" ; x = "salut greg"
+
+* LES TYPES DE VARIABLES *
+
+note: les types ne sont pas immuables en python, on peut changer le typage d'une varoable en cours
+de code (différent JAVA).
+
+les différents types utilisés dans python: - integer
+										   - float
+										   - string
+
+note: La déclaration de variable s'éffectue avec une lettre en premier, puis comme on veut.
+
+le programme possède des entrées/sorties. Il va pouvoir récupérer des valeurs en amont (input), et
+faire sortir des datas (output).
+
+
+* Les commentaires en PYTHON *
+
+# ---> Pour une seule ligne
+''' ---> Pour plusieurs lignes
+
+
+* les tests *
+
+les tests conditionnels, synthax:  
+--------------------------------
+
+
+if TEST:
+		# le bloc d'instruction sera réalisé si le TEST retourne vrai
+
+else:
+		# bloc d'instruction si le TEST retourne faux
+
+# bloc d'instruction à la suite du TEST
+
+
+--------------------------------
+* LES LISTES *
+--------------
+
+
+* On peut créer des listes (ex: liste=[1,2,3]) --> collection de valeurs
+
+note: Les listes commencent à l'index 0
+
+list.append(valeur) --> ajoute la valeur a la fin de la liste
+list.index(2) --> retourne l'index où il trouve la valeur 2
+list.remove(2) --> supprime la premiere valeur 2 qu'il trouve dans le tableau
+
+
+* LES BOUCLES *
+---------------
+
+for x [1,2,3,4,5]:
+	print x
+
+	autre syntha
+
+for x in range (0,5):
+	print x
+
+* LES FONCTIONS *
+-----------------
+
+...
+
+def function(a, b=1, c=3)
+
+--> paramètre changeant : a 
+--> paramètres par défaut : b et c 
+
+* note * les variables doivent avoir un nom (pas de a, b, c)
+
+
+
+* LES CLASSES *
+---------------
+
+permet de créer des objets, c'est une notion abstraite derrière un objet. Elle permet 
+de définir ce qu'un objet peut faire, comment il est caractérisé.
+
+L'idée d'objet permet d'imbriquer des objets
+
+
+
+
+
